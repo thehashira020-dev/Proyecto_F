@@ -99,7 +99,7 @@
 <body>
   <!-- Animación de intro -->
   <div id="intro-container">
-    <img id="intro-image" src="https://cdn.jsdelivr.net/gh/wilzamguerrero/ar_prueba123@main/assets/inicio.jpg" alt="Intro Animation">
+    <img id="intro-image" src="https://cdn.jsdelivr.net/gh/thehashira020-dev/Proyecto_F@main/assets/inicio.jpg" alt="Intro Animation">
   </div>
 
   <!-- Botones de control fijos -->
@@ -112,7 +112,7 @@
   <a-scene
     vr-mode-ui="enabled: false"
     device-orientation-permission-ui="enabled: false"
-    mindar-image="imageTargetSrc: https://cdn.jsdelivr.net/gh/wilzamguerrero/ar_prueba123@main/assets/targets.mind; filterMinCF: 0.001; filterBeta: 0.01;"
+    mindar-image="imageTargetSrc: https://cdn.jsdelivr.net/gh/thehashira020-dev/Proyecto_F@main/assets/targets.mind; filterMinCF: 0.001; filterBeta: 0.01;"
     color-space="sRGB"
     renderer="colorManagement: true, physicallyCorrectLights"
   >
@@ -121,11 +121,11 @@
       
       <!-- Marker 0 Assets -->
       <video id="video0"
-             src="https://cdn.jsdelivr.net/gh/wilzamguerrero/ar_prueba123@main/assets/media.mp4"
+             src="https://cdn.jsdelivr.net/gh/thehashira020-dev/Proyecto_F@main/assets/targets_f1.mp4.mp4"
              preload="auto" loop playsinline webkit-playsinline crossorigin="anonymous">
       </video>
-      <img id="mask0" src="https://cdn.jsdelivr.net/gh/wilzamguerrero/ar_prueba123@main/assets/mask1.png" crossorigin="anonymous">
-      <img id="frame0" src="https://cdn.jsdelivr.net/gh/wilzamguerrero/ar_prueba123@main/assets/frame1.png" crossorigin="anonymous">
+      <img id="mask0" src="https://cdn.jsdelivr.net/gh/thehashira020-dev/Proyecto_F@main/assets/frame.png" crossorigin="anonymous">
+      <img id="frame0" src="https://cdn.jsdelivr.net/gh/thehashira020-dev/Proyecto_F@main/assets/frame_3.png" crossorigin="anonymous">
     </a-assets>
 
     <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
@@ -254,32 +254,32 @@
         markerGroupId: 'markerGroup0',
 
         // Global
-        globalScale: 1.5,
-        globalPositionX: 0,
-        globalPositionY: 0,
-        globalPositionZ: 0,
+        globalScale: 2.12,
+        globalPositionX: 0.2,
+        globalPositionY: 0.17,
+        globalPositionZ: -0.02,
         
         // Video
-        videoScale: 1.3,
+        videoScale: 1.29,
         videoPositionX: 0,
         videoPositionY: 0,
         videoPositionZ: 0.02,
         
         // Frame/Overlay
-        overlayScale: 1.33,
+        overlayScale: 1.66,
         framePositionX: 0,
         framePositionY: 0,
         framePositionZ: 0.05,
         
         // Mask
-        maskScale: 1.01,
-        maskPositionX: 0,
+        maskScale: 1.11,
+        maskPositionX: 0.03,
         maskPositionY: 0,
 
         // Rotation
         rotationMin: 0,
-        rotationMax: 7,
-        rotationSpeed: 0.1
+        rotationMax: 10,
+        rotationSpeed: 0.3
       }
     ];
 
